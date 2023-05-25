@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <bold>false</bold>
+    <kerning>true</kerning>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Cuerpos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cuerpos</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Xinicial">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>X inicial</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yinicial">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Y inicial</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Masa">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Masa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Radio">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Radio</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VinicialX">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>V_inicial X</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="VinicialY">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>V_inicial Y</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="VoX">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>230</y>
+      <width>65</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>9999999994.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="VoY">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>270</y>
+      <width>65</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>9999999999.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar cuerpo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Simular</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Finalizar</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>-70</y>
+      <width>1500</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1000</width>
+      <height>500</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1920</width>
+      <height>1080</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="Bodies">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>65</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>32767.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="Xo">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>65</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>9999999999.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="Yo">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>110</y>
+      <width>65</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>9999999999.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="Mass">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>65</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>9999999999.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="Radius">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>190</y>
+      <width>65</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>9999999999.000000000000000</double>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
